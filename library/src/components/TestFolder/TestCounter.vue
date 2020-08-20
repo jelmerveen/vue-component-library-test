@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button :class="componentClasses" @click="increment">{{ text }}</button>
+    <button class="btn btn-warning" @click="increment">{{ text }}</button>
   </div>
 </template>
 <script>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <docs>
-This button is amazing, use it responsibly.
+This button is amazing :)
 
 ## Examples
 
@@ -38,11 +38,6 @@ A simple counter:
 
 ```jsx
 <counter />
-```
-
-Primary counter: 
-```jsx
-<counter :componentClasses="'btn btn-primary'" />
 ```
 
 </docs>
